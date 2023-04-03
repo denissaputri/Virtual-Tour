@@ -1,0 +1,32 @@
+html,
+body {
+  /* 100% agar virtual tour full layar */
+  width: 100%;
+  height: 100%;
+
+  /* untuk menghilangkan area scroll dikanan */
+  overflow: hidden;
+
+  /* agar tdk ada space kosong disekitar halaman */
+  margin: 0;
+}
+#container {
+  /* 100% agar virtual tour full layar */
+  width: 100%;
+  height: 100%;
+}
+
+#progress {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+}
+#bar {
+  background-color: #ffc55a;
+  height: 100%;
+  transition: width 0.1s ease;
+}
+#bar.hide {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
