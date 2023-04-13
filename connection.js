@@ -78,3 +78,5 @@ function onButtonClick(targetPanorama) {
 }
 panorama.addEventListener("progress", onProgressUpdate);
 panorama2.addEventListener("progress", onProgressUpdate);
+panorama3.addEventListener("progress", onProgressUpdate);
+panorama4.addEventListener("progress", onProgressUpdate);
